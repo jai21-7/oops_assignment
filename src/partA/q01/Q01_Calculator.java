@@ -1,3 +1,5 @@
+package partA.q01;
+
 /*
  * QUESTION 1
  * ---------

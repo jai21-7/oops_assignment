@@ -12,12 +12,15 @@ Rules that beginners mix up:
 - Changing only the **parameter names** is NOT overloading (`int side` vs `int radius` is the same).
 - What counts: **number** of parameters, **types**, or **order** of types.
 
-How to run one program:
+How to run one program (from the project folder):
 
 ```bash
-javac -d out src/partA/Q01_Calculator.java
-java -cp out Q01_Calculator
+javac -d out src/partA/q01/Q01_Calculator.java
+java -cp out partA.q01.Q01_Calculator
 ```
+
+Each question lives in its own package (`partA.q01`, `partA.q02`, ...) so class
+names like `Student` can be reused in later questions without clashing.
 
 ---
 
