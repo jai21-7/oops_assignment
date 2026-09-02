@@ -1,3 +1,5 @@
+package partA.q04;
+
 /*
  * QUESTION 4
  * ---------
