@@ -1,7 +1,9 @@
-# OOPS Assignment — Method Overloading, Constructor Overloading, Object as Parameter
+# OOPS Assignments
 
-This folder solves every question in `Overloading_Object_Parameter (1).pdf`.
-Each program is a full Java file with comments written for a **beginner**.
+Java programs with beginner comments for:
+
+1. `Overloading_Object_Parameter (1).pdf` — overloading and object as parameter
+2. `Inheritance_Overriding_Method_Hiding.pdf` — inheritance, overriding, method hiding
 
 ## How to learn
 
@@ -73,3 +75,42 @@ bash scripts/run-all.sh
 1. **Method overloading** — same name, different parameter list. Return type alone does not count.
 2. **Constructor overloading** — several `new ClassName(...)` shapes. Name equals class name. No return type.
 3. **Object as parameter** — `s1.compare(s2)`: `s1` is `this`, `s2` is the parameter.
+
+---
+
+## Assignment 2 — Inheritance, Overriding, Method Hiding
+
+Details: `src/inheritance/partA/README.md`, `partB`, `partC`.
+
+### A. Inheritance
+
+| Q | Program | Idea |
+| --- | --- | --- |
+| 1 | `inheritance.partA.q01.Q01_EmployeeManager` | Employee → Manager |
+| 2 | `inheritance.partA.q02.Q02_VehicleCarBike` | Vehicle → Car, Bike |
+| 3 | `inheritance.partA.q03.Q03_BankAccounts` | savings interest + current overdraft |
+| 4 | `inheritance.partA.q04.Q04_PersonStudentResult` | Person → Student → Result |
+| 5 | `inheritance.partA.q05.Q05_Shapes` | Circle, Rectangle, Triangle area |
+
+### B. Method overriding
+
+| Q | Program | Idea |
+| --- | --- | --- |
+| 6 | `inheritance.partB.q06.Q06_AnimalSounds` | Dog / Cat / Cow `sound()` |
+| 7 | `inheritance.partB.q07.Q07_BankInterest` | runtime polymorphism on interest |
+| 8 | `inheritance.partB.q08.Q08_EmployeeSalary` | full / part / contract salary |
+| 9 | `inheritance.partB.q09.Q09_Payments` | credit / UPI / net banking |
+| 10 | `inheritance.partB.q10.Q10_TransportFare` | bus / train / taxi fare |
+
+### C. Method hiding (static)
+
+| Q | Program | Idea |
+| --- | --- | --- |
+| 11 | `inheritance.partC.q11.Q11_StaticHiding` | static `show()` follows the reference |
+| 12 | `inheritance.partC.q12.Q12_OverrideVsHide` | instance vs static side by side |
+| 13 | `inheritance.partC.q13.Q13_ThreeLevelHiding` | GrandParent → Parent → Child |
+| 14 | `inheritance.partC.q14.Q14_EmployeeManagerHide` | `work()` vs `companyPolicy()` |
+| 15 | `inheritance.partC.q15.Q15_ShoppingSystem` | Product → Mobile, 5 exam answers |
+
+**Override** = instance method, chosen by the **object**.  
+**Hide** = static method, chosen by the **reference type**.
