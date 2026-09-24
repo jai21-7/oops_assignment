@@ -7,10 +7,11 @@ Java programs with beginner comments for:
 
 ## How to learn
 
-1. For a full step-by-step explanation of every question (theory, design, expected output, exam traps), read `SOLUTION.md`.
-2. Open the README inside the part you are studying (`src/partA/README.md` …).
-3. Open the matching `.java` file. Read the top comment first, then `main`.
-4. Compile and run that one program. Watch which method/constructor is printed.
+1. For a lecture-style explanation of the combined OOPS PPT (`OOPS Combined - Only for Ashu Bhai.pdf`), read `OOPS_COMBINED_EXPLAINED.md`.
+2. For a full step-by-step explanation of every question (theory, design, expected output, exam traps), read `SOLUTION.md`.
+3. Open the README inside the part you are studying (`src/partA/README.md` …).
+4. Open the matching `.java` file. Read the top comment first, then `main`.
+5. Compile and run that one program. Watch which method/constructor is printed.
 
 ## How to run one question
 
