@@ -4,6 +4,9 @@ Java programs with beginner comments for:
 
 1. `Overloading_Object_Parameter (1).pdf` — overloading and object as parameter
 2. `Inheritance_Overriding_Method_Hiding.pdf` — inheritance, overriding, method hiding
+3. Exception handling and multithreading (`src/exceptions`)
+4. Interfaces (`src/interfaces`)
+5. Java I/O lectures 32–33 (`src/javaio`)
 
 ## How to learn
 
@@ -116,3 +119,21 @@ Details: `src/inheritance/partA/README.md`, `partB`, `partC`.
 
 **Override** = instance method, chosen by the **object**.  
 **Hide** = static method, chosen by the **reference type**.
+
+---
+
+## Assignment 3 — Exception and Multi Threading
+
+The original PPTX lived only on your PC (`Downloads`). Programs follow the usual lab for that lecture. Details: `src/exceptions/README.md`.
+
+Exceptions: try/catch, multiple catch, nested try, throw, throws, finally, custom `NegativeAgeException`, password auth.
+
+Threads: extend Thread, Runnable, 1–50 forward/reverse, priority, synchronized counter, wait/notify, deadlock explained.
+
+## Assignment 4 — Interface
+
+Details: `src/interfaces/README.md`. Playable, multiple interfaces, interface extends interface, Payment polymorphism, abstract class vs interface, Shape.
+
+## Assignment 5 — Java I/O (lectures 32–33)
+
+Details: `src/javaio/README.md`. FileWriter/Reader, BufferedReader, byte copy, word count, append, try-with-resources, serialization. Demo files go under `out/io-demo/`.
