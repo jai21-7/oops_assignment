@@ -134,6 +134,18 @@ Threads: extend Thread, Runnable, 1–50 forward/reverse, priority, synchronized
 
 Details: `src/interfaces/README.md`. Playable, multiple interfaces, interface extends interface, Payment polymorphism, abstract class vs interface, Shape.
 
+## Project — Student Management System
+
+A separate console program that uses encapsulation, inheritance, collections, and file handling together. Read `STUDENT_SYSTEM.md` from Step 1, then the classes under `src/sms/` in that same order.
+
+```bash
+javac -d out src/sms/model/*.java src/sms/store/*.java src/sms/StudentManagementApp.java
+java -cp out sms.StudentManagementApp demo
+java -cp out sms.StudentManagementApp
+```
+
+The menu stores students in `data/sms/`. Add, update, delete, search, marks, CGPA, and attendance are in that menu.
+
 ## Assignment 5 — Java I/O (lectures 32–33)
 
 Details: `src/javaio/README.md`. FileWriter/Reader, BufferedReader, byte copy, word count, append, try-with-resources, serialization. Demo files go under `out/io-demo/`.
